@@ -42,22 +42,22 @@ class FourPanel extends Component {
                 </div>
                 <div className="four-panel-container">
                     <div className="panel">
-                        <Fade up className="panel-image" duration={2000} fraction={1} onReveal={ () => this.setState({showingImage: true}) }><div className="panel-image" style={TaxiStyle}></div></Fade>
+                        <Fade up className="panel-image" duration={2000} fraction={.25} onReveal={ () => this.setState({showingImage: true}) }><div className="panel-image" style={TaxiStyle}></div></Fade>
                         <div className={"panel-text" + (this.state.showingImage ? " fade-out" : "")}>Veniam duis sunt labore ipsum esse adipisicing id proident esse sunt nisi labore aliqua elit.</div>
                         <div className={"diamond fuchsia" + (this.state.showingImage ? " fade-out" : "")}>&#9670;</div>
                     </div>
                     <div className="panel">
-                        <Fade down className="panel-image" duration={2000} fraction={1}><div className="panel-image" style={FriendsStyle}></div></Fade>
+                        <Fade down className="panel-image" duration={2000} fraction={.25}><div className="panel-image" style={FriendsStyle}></div></Fade>
                         <div className={"panel-text" + (this.state.showingImage ? " fade-out" : "")}>Veniam duis sunt labore ipsum esse adipisicing id proident esse sunt nisi labore aliqua elit.</div>
                         <div className={"diamond dark-sea-green" + (this.state.showingImage ? " fade-out" : "")}>&#9670;</div>
                     </div>
                     <div className="panel">
-                        <Fade up className="panel-image" duration={2000} fraction={1}><div className="panel-image" style={GondolaStyle}></div></Fade>
+                        <Fade up className="panel-image" duration={2000} fraction={.25}><div className="panel-image" style={GondolaStyle}></div></Fade>
                         <div className={"panel-text" + (this.state.showingImage ? " fade-out" : "")}>Veniam duis sunt labore ipsum esse adipisicing id proident esse sunt nisi labore aliqua elit.</div>
                         <div className={"diamond cyan" + (this.state.showingImage ? " fade-out" : "")}>&#9670;</div>
                     </div>
                     <div className="panel">
-                        <Fade down className="panel-image" duration={2000} fraction={1}><div className="panel-image" style={WalkingStyle}></div></Fade>
+                        <Fade down className="panel-image" duration={2000} fraction={.25}><div className="panel-image" style={WalkingStyle}></div></Fade>
                         <div className={"panel-text" + (this.state.showingImage ? " fade-out" : "")}>Veniam duis sunt labore ipsum esse adipisicing id proident esse sunt nisi labore aliqua elit.</div>
                         <div className={"diamond yellow" + (this.state.showingImage ? " fade-out" : "")}>&#9670;</div>
                     </div>
