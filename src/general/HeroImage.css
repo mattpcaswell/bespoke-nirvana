@@ -1,0 +1,22 @@
+.hero-image {
+    height: 650px;
+
+    position: relative;
+}
+
+.hero-image-text {
+    font-family: 'Roboto Slab';
+    font-size: 32px;
+    background: white;
+    
+    position: absolute;
+    bottom:-28px;
+    width: fit-content;
+    padding: 15px 25px;
+
+    /* center horizontally */
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+}

@@ -1,0 +1,66 @@
+.tiled-image-and-detail {
+    height: 425px;
+    background: white;
+
+    display: flex;
+
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.tiled-image-and-detail > .left-picture {
+    flex: 1;
+    border: 1px solid #828178;
+}
+
+.tiled-image-and-detail > .text-container {
+    flex: 1;
+    position: relative;
+
+    padding: 15px 10px;
+    margin: 0 15px 0 5px;
+    border-bottom: 6px solid black;
+}
+
+.tiled-image-and-detail > .right-picture-container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-picture-container > .top-picture {
+    flex: 1;
+
+    border: 6px solid black;
+
+    margin-bottom: 5px;
+}
+
+.right-picture-container > .bottom-picture-container {
+    flex: 1;
+    display: flex;
+}
+
+.bottom-left-picture {
+    flex: 3;
+    border: 6px solid black;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.bottom-right-picture {
+    flex: 2;
+    border: 6px solid #90AB71;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.squiggle {
+    width: 100%;
+    height: 10px;
+
+    background-size: contain !important;
+
+    position: absolute;
+    top: 0;
+}

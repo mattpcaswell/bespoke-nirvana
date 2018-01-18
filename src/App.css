@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+
+  border-bottom: 30px solid black;
+}
+
+.page > .panel {
+  padding: 0 100px;
+}
+
+ul {
+  list-style-type: square;
+  text-align: start;
+
+  padding-left: 16px;
+}

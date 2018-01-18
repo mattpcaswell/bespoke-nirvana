@@ -1,0 +1,26 @@
+.image-and-detail {
+    height: 500px;
+    background: lightgrey;
+
+    display: flex;
+
+    padding-top: 120px !important;
+}
+
+.image-and-detail > .detail-text {
+    flex: 1;
+
+    padding: 0 20px 0 0;
+
+    font-size: 24px;
+}
+
+.image-and-detail > .detail-text > .detail-title {
+    font-size: 26px;
+}
+
+.image-and-detail > .image {
+    flex: 3;
+    margin-bottom: -30px;
+    border: 1px solid #828178;
+}
