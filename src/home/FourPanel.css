@@ -19,17 +19,14 @@
 
 .four-panel-container > .panel {
     flex: 1;
+    position: relative;
+    overflow: hidden;
 
     border: 10px solid black;
     margin: 20px 4px;
     height: 440px;
-
     padding: 0;
     font-size: 26px;
-
-    position: relative;
-
-    overflow: hidden;
 }
 
 .panel-image {

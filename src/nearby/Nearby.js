@@ -4,7 +4,7 @@ class Nearby extends Component {
     render() {
         return (
             <div className="page">
-                
+                Nearby
             </div>
         );
     }

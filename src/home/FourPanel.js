@@ -3,7 +3,7 @@ import { Fade } from 'react-reveal';
 import ConcreteFile from '../assets/concrete.jpg';
 import TaxiFile from '../assets/taxi.png';
 import FriendsFile from '../assets/friends.png';
-import GondolaFile from '../assets/gondola.png';
+import GondolaFile from '../assets/gondola.jpg';
 import WalkingFile from '../assets/walking.png';
 import './FourPanel.css';
 

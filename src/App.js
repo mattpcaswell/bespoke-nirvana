@@ -5,6 +5,18 @@ import Nearby from './nearby/Nearby';
 import './App.css';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {};
+  }
+  componentDidMount() {
+    // page data is assigned to the global window.data from the server
+    this.setState({
+      pages: window.data
+    });
+  }
+
   render() {
     return (
       <div className="App">

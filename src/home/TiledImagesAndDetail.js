@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './TiledImageAndDetail.css';
-import NySkylineFile from '../assets/nyc-skyline.png';
+import NySkylineFile from '../assets/nyc-skyline.jpg';
 import TimeSquareFile from '../assets/times-square.png';
 import TeaFile from '../assets/tea.jpg';
 import MuffinFile from '../assets/muffin.png';
